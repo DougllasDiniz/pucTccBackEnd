@@ -20,7 +20,6 @@ class WebServiceLogin{
             $user = $con->dadosUsuario($dado[email],$dado[senha]);
             
             return $user;
-            //print_r($dado[email]);
             
         });
 
